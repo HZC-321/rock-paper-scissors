@@ -1,0 +1,26 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.winner, .finalWinner {
+    display: flex;
+    justify-content: center;
+}
